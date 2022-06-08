@@ -16,11 +16,11 @@ stage('Sonar Analysis')
 {
 steps
 {
- withSonarQubeEnv('SonarQube')
-{
+
+
 bat 'mvn sonar:sonar'
 }
 }
 }
 }
-}
+
